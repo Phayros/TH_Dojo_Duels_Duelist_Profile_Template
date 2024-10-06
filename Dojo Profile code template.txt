@@ -23,6 +23,13 @@
 
                                                             Status bar main color: #6200ff
                                                             Status bar background color: #e3b8ff
+
+                                                            Sliders background color: #212176
+
+                                                            Main background opacity: rgba(000,000,000,0.8)
+                                                            Most boxes background opacity: rgba(0, 0, 0, 0.3)
+                                                            Text boxes background opacity: rgba(0, 0, 0, 0.75)
+                                                            Weapons/Powers boxes background opacity: rgba(0, 0, 0, 0.5)
                                                 ---------------------------------------------------
                                                 To use images, you need to upload the images you want to use
                                                to an image hosting site, get its link and use where you need
@@ -94,40 +101,46 @@ You can change the background image, just change the image link to whatever imag
 
             <!------------------------- OVERVIEW PAGE ------------------------->
             <div class="tab-pane active show fade in" id="Overview">
+
+                <!------------------------- CHARACTER NAME ------------------------->
+
+                <div class="row mx-3 my-3">
+                    <div class="w-100 justify-content-center mx-3" style="background-color: rgba(0, 0, 0, 0.3); border-radius: 15px;">
+                        <div class="row py-2" style="color:#6c5fff; font-family: Impact; text-align: center;">
+                            <span class="w-100" style="font-size: 36px;">
+                                Duelist Name
+                            </span>
+                            <span class="w-100" style="font-size: 30px;">
+                                Duelist Title
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="w-75 my-1" style="background-color: #ffffff">
+                
                 <div class="row mx-3">
                     <!------------------------- CHARACTER IMAGE ------------------------->
                     <div class="col-lg-8 my-3">
-                        <div class="w-100 justify-content-center" style="background-color: rgba(0, 0, 0, 0.3); max-height: 800px; overflow: hidden; border-radius: 15px;">
-                            <div class="bg-transparent">
-                                <!-- 
-                                Put the link of the main image of your duelist here
-                                -->
-                                <img src="
-                                
-                                https://f2.toyhou.se/file/f2-toyhou-se/images/89111045_VtucBVz1shwZxdA.png
-                                
-                                ">
-                            </div>
-                            <div style="background-color: rgba(50, 48, 59, 0.50); position: absolute; top:75%; left: 15px; border-radius: 0px 15px 15px 0px; box-shadow: 5px 5px 5px 3px black;">
-                                <div class="col px-5 py-2" style="text-align: center;">
-                                    <p style="font-size: 24px; color:#e6f9ff; font-family: Impact;">
-                                        <span>
-                                            Duelist Name
-                                        </span>
-                                    </p>
-                                    <p class="font-italic" style="font-size: 20px; color:#e6f9ff; font-family: Impact;">
-                                        <span>
-                                            Duelist Title
-                                        </span>
-                                    </p>
+                        <div class="w-100 justify-content-center" style="background-color: rgba(0, 0, 0, 0.3); border-radius: 15px;">
+                            <div class="col-lg-12 justify-content-center">
+                                <div class="col-lg-8 bg-transparent">
+                                    <!-- 
+                                    Put the link of the main image of your duelist here
+                                    -->
+                                    <img src="
+                                    
+                                    https://f2.toyhou.se/file/f2-toyhou-se/images/89111045_VtucBVz1shwZxdA.png
+                                    
+                                    ">
                                 </div>
                             </div>
                         </div>
                     </div>
                     
                     <!------------------------- BASIC INFORMATIONS ------------------------->
-                    <div class="col-lg-4 my-3 h-auto" style="max-height: 800px; overflow: auto;">
-                        <div class="p-3" style="background-color: rgba(0, 0, 0, 0.75); border-radius: 15px; border-color: #ffffff; border-style: solid; border-width: 1px;">
+                    <div class="col-lg-4 my-3 h-auto">
+                        <div class="p-3" style="background-color: rgba(0, 0, 0, 0.75); border-radius: 15px; border-color: #f8edff; border-style: solid; border-width: 1px;">
                             <div class="row">
                                 <div class="col">
                                     <p class="pl-1" style="font-size: 20px; color:#6c5fff;">
@@ -1470,7 +1483,7 @@ You can change the background image, just change the image link to whatever imag
                                         <span class="text-uppercase text-muted">Extrovert</span>
                                     </div>
                                     <!-- Slider -->
-                                    <div class="progress rounded">
+                                    <div class="progress rounded" style="background-color: #212176;">
                                         <!-- 
                                         Change the width down here -->
                                         <div class="progress-bar" style="height: 7px; width:
@@ -1487,7 +1500,7 @@ You can change the background image, just change the image link to whatever imag
                                         <span class="text-uppercase text-muted">Foolish</span>
                                     </div>
                                     <!-- Slider -->
-                                    <div class="progress rounded">
+                                    <div class="progress rounded" style="background-color: #212176;">
                                         <!-- 
                                         Change the width down here -->
                                         <div class="progress-bar" style="height: 7px; width:
@@ -1504,7 +1517,7 @@ You can change the background image, just change the image link to whatever imag
                                         <span class="text-uppercase text-muted">Selfless</span>
                                     </div>
                                     <!-- Slider -->
-                                    <div class="progress rounded">
+                                    <div class="progress rounded" style="background-color: #212176;">
                                         <!-- 
                                         Change the width down here -->
                                         <div class="progress-bar" style="height: 7px; width:
@@ -1521,7 +1534,7 @@ You can change the background image, just change the image link to whatever imag
                                         <span class="text-uppercase text-muted">Cynical</span>
                                     </div>
                                     <!-- Slider -->
-                                    <div class="progress rounded">
+                                    <div class="progress rounded" style="background-color: #212176;">
                                         <!-- 
                                         Change the width down here -->
                                         <div class="progress-bar" style="height: 7px; width:
@@ -1538,7 +1551,7 @@ You can change the background image, just change the image link to whatever imag
                                         <span class="text-uppercase text-muted">Blunt</span>
                                     </div>
                                     <!-- Slider -->
-                                    <div class="progress rounded">
+                                    <div class="progress rounded" style="background-color: #212176;">
                                         <!-- 
                                         Change the width down here -->
                                         <div class="progress-bar" style="height: 7px; width:
@@ -1555,7 +1568,7 @@ You can change the background image, just change the image link to whatever imag
                                         <span class="text-uppercase text-muted">Tough</span>
                                     </div>
                                     <!-- Slider -->
-                                    <div class="progress rounded">
+                                    <div class="progress rounded" style="background-color: #212176;">
                                         <!-- 
                                         Change the width down here -->
                                         <div class="progress-bar" style="height: 7px; width:
@@ -1572,7 +1585,7 @@ You can change the background image, just change the image link to whatever imag
                                         <span class="text-uppercase text-muted">Serious</span>
                                     </div>
                                     <!-- Slider -->
-                                    <div class="progress rounded">
+                                    <div class="progress rounded" style="background-color: #212176;">
                                         <!-- 
                                         Change the width down here -->
                                         <div class="progress-bar" style="height: 7px; width:
@@ -1589,7 +1602,7 @@ You can change the background image, just change the image link to whatever imag
                                         <span class="text-uppercase text-muted">Punch First</span>
                                     </div>
                                     <!-- Slider -->
-                                    <div class="progress rounded">
+                                    <div class="progress rounded" style="background-color: #212176;">
                                         <!-- 
                                         Change the width down here -->
                                         <div class="progress-bar" style="height: 7px; width:
@@ -1632,7 +1645,7 @@ You can change the background image, just change the image link to whatever imag
                                         <span class="text-uppercase text-muted">Defensive</span>
                                     </div>
                                     <!-- Slider -->
-                                    <div class="progress rounded">
+                                    <div class="progress rounded" style="background-color: #212176;">
                                         <!-- 
                                         Change the width down here -->
                                         <div class="progress-bar" style="height: 7px; width:
@@ -1649,7 +1662,7 @@ You can change the background image, just change the image link to whatever imag
                                         <span class="text-uppercase text-muted">Close Combat</span>
                                     </div>
                                     <!-- Slider -->
-                                    <div class="progress rounded">
+                                    <div class="progress rounded" style="background-color: #212176;">
                                         <!-- 
                                         Change the width down here -->
                                         <div class="progress-bar" style="height: 7px; width:
@@ -1666,7 +1679,7 @@ You can change the background image, just change the image link to whatever imag
                                         <span class="text-uppercase text-muted">Ruthless</span>
                                     </div>
                                     <!-- Slider -->
-                                    <div class="progress rounded">
+                                    <div class="progress rounded" style="background-color: #212176;">
                                         <!-- 
                                         Change the width down here -->
                                         <div class="progress-bar" style="height: 7px; width:
@@ -1683,7 +1696,7 @@ You can change the background image, just change the image link to whatever imag
                                         <span class="text-uppercase text-muted">Improviser</span>
                                     </div>
                                     <!-- Slider -->
-                                    <div class="progress rounded">
+                                    <div class="progress rounded" style="background-color: #212176;">
                                         <!-- 
                                         Change the width down here -->
                                         <div class="progress-bar" style="height: 7px; width:
@@ -2577,5 +2590,7 @@ You can change the background image, just change the image link to whatever imag
     </div>
 </div>
 <div class="text-uppercase faded text-right">
-    Code by @Phayros
+    <p>
+        <span>Code by <a href="https://toyhou.se/29440599.hyuns-dojo-duelist-profile">Phayros</a></span>
+    </p>
 </div>
