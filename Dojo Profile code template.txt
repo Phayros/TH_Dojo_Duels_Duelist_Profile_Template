@@ -2010,7 +2010,7 @@ You can change the background image, just change the image link to whatever imag
 
                         <div class="row my-3 mx-3" style="background-color: rgba(0, 0, 0, 0.3);border-radius: 15px; border-color: #ffffff; border-style: solid; border-width: 1px;">
                             <div class="row justify-content-center m-auto">
-                                <div class="col-lg-6 py-3">
+                                <div class="col-lg-3 py-3">
 
                                     <div class="col">
                                         <!-- 
